@@ -1,0 +1,42 @@
+{
+  "name": "List",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "tasks": {
+      "type": [
+        "Task"
+      ]
+    },
+    "admins": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "users": {
+      "type": [
+        "string"
+      ]
+    },
+    "public": {
+      "type": "boolean",
+      "required": true
+    },
+    "scores": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

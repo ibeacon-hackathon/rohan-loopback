@@ -1,0 +1,27 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "listDB": { 
+    "name": "listDB",
+    "connector": "mongodb",
+    "host": "127.0.0.1", 
+    "database": "listDB", 
+    "port": 27017 
+  },
+  "taskDB": {
+    "name": "taskDB",
+    "connector": "mongodb",
+    "host": "127.0.0.1", 
+    "database": "taskDB", 
+    "port": 27017 
+  },
+  "userDB": {
+    "name": "userDB",
+    "connector": "mongodb",
+    "host": "127.0.0.1", 
+    "database": "userDB", 
+    "port": 27017 
+  }
+}

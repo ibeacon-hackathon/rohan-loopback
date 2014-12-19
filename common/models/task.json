@@ -1,0 +1,46 @@
+{
+  "name": "Task",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "points": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "list": {
+      "type": "string",
+      "required": true
+    },
+    "creationTime": {
+      "type": "date",
+      "required": true
+    },
+    "acceptedTime": {
+      "type": "date",
+      "required": true
+    },
+    "finishedTime": {
+      "type": "date",
+      "required": true
+    },
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
